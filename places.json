@@ -2,126 +2,226 @@
   "القاهرة": {
     "وسط البلد": {
       "🍔 مطاعم وكشري ومشويات": [
-        {"name": "البرنس", "rating": "⭐ 4.6", "desc": "أشهر مطعم كبدة ومسقعة.", "dist": "1.2 كم", "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80", "map": "El+Prince+Agouza"},
-        {"name": "ابو طارق", "rating": "⭐ 4.7", "desc": "ملك الكشري المصري الأصيل.", "dist": "0.8 كم", "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80", "map": "Abu+Tarek+Cairo"},
-        {"name": "جاد", "rating": "⭐ 4.2", "desc": "فول، فلافل، فطائر ومشاوي على مدار اليوم.", "dist": "0.5 كم", "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80", "map": "Gad+Cairo"},
-        {"name": "الشبراوي", "rating": "⭐ 4.3", "desc": "أشهر سندوتشات فول وطعمية.", "dist": "0.6 كم", "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80", "map": "El+Shabrawy+Cairo"}
+        {
+          "name": "البرنس",
+          "rating": "⭐ 4.6",
+          "desc": "أشهر مطعم كبدة ومسقعة في مصر.",
+          "dist": "1.2 كم",
+          "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80",
+          "map": "El+Prince+Agouza"
+        },
+        {
+          "name": "ابو طارق",
+          "rating": "⭐ 4.7",
+          "desc": "ملك الكشري المصري الأصيل.",
+          "dist": "0.8 كم",
+          "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80",
+          "map": "Abu+Tarek+Cairo"
+        },
+        {
+          "name": "جاد",
+          "rating": "⭐ 4.2",
+          "desc": "فول، فلافل، فطائر ومشاوي على مدار اليوم.",
+          "dist": "0.5 كم",
+          "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80",
+          "map": "Gad+Cairo"
+        },
+        {
+          "name": "كشري التحرير",
+          "rating": "⭐ 4.5",
+          "desc": "طعم كشري أصلي وساخن.",
+          "dist": "1.0 كم",
+          "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80",
+          "map": "Koshary+El+Tahrir"
+        },
+        {
+          "name": "فلفلة",
+          "rating": "⭐ 4.4",
+          "desc": "أكل شرقي ومشاوي ممتازة.",
+          "dist": "1.3 كم",
+          "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80",
+          "map": "Felfela+Cairo"
+        }
       ],
       "☕ كافيهات وقهاوي تراثية": [
-        {"name": "قهوة الفشاوي", "rating": "⭐ 4.7", "desc": "قعدة عريقة وأصيلة في خان الخليلي.", "dist": "1.5 كم", "img": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=600&q=80", "map": "El+Fishawy+Khan+El+Khalili"},
-        {"name": "سيلنترو", "rating": "⭐ 4.4", "desc": "مكان هادئ للقهوة والشغل والمذاكرة.", "dist": "0.9 كم", "img": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=600&q=80", "map": "Cilantro+Downtown+Cairo"},
-        {"name": "ريش", "rating": "⭐ 4.5", "desc": "المقهى التاريخي الشهير لأدباء مصر.", "dist": "1.1 كم", "img": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=600&q=80", "map": "Café+Riche+Cairo"}
+        {
+          "name": "قهوة الفشاوي",
+          "rating": "⭐ 4.7",
+          "desc": "قعدة عريقة وأصيلة في خان الخليلي.",
+          "dist": "1.5 كم",
+          "img": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=600&q=80",
+          "map": "El+Fishawy+Khan+El+Khalili"
+        },
+        {
+          "name": "سيلنترو",
+          "rating": "⭐ 4.4",
+          "desc": "مكان هادئ للقهوة والشغل والمذاكرة.",
+          "dist": "0.9 كم",
+          "img": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=600&q=80",
+          "map": "Cilantro+Downtown+Cairo"
+        },
+        {
+          "name": "ريش",
+          "rating": "⭐ 4.5",
+          "desc": "المقهى التاريخي الشهير لأدباء مصر.",
+          "dist": "1.1 كم",
+          "img": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=600&q=80",
+          "map": "Café+Riche+Cairo"
+        }
       ],
       "🍦 آيس كريم وحلويات": [
-        {"name": "العبد للحلويات", "rating": "⭐ 4.8", "desc": "أشهر حلواني شرقي وغربي وآيس كريم.", "dist": "1.0 كم", "img": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80", "map": "El+Abd+Patisserie+Cairo"},
-        {"name": "بسكو مصر", "rating": "⭐ 4.4", "desc": "حلويات وبسكويت على اصولها.", "dist": "1.4 كم", "img": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=600&q=80", "map": "Bisco+Misr+Cairo"}
+        {
+          "name": "العبد للحلويات",
+          "rating": "⭐ 4.8",
+          "desc": "أشهر حلواني شرقي وغربي وآيس كريم.",
+          "dist": "1.0 كم",
+          "img": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80",
+          "map": "El+Abd+Patisserie+Cairo"
+        }
       ],
       "🌳 حدائق ومتنزهات": [
-        {"name": "حديقة الأزهر", "rating": "⭐ 4.8", "desc": "إطلالة بانورامية ساحرة على القاهرة التاريخية.", "dist": "3.0 كم", "img": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?auto=format&fit=crop&w=600&q=80", "map": "Al+Azhar+Park+Cairo"},
-        {"name": "الحديقة الدولية", "rating": "⭐ 4.3", "desc": "أجمل المساحات الخضراء والحيوانات.", "dist": "6.0 كم", "img": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=600&q=80", "map": "International+Park+Cairo"}
+        {
+          "name": "حديقة الأزهر",
+          "rating": "⭐ 4.8",
+          "desc": "إطلالة بانورامية ساحرة على القاهرة التاريخية.",
+          "dist": "3.0 كم",
+          "img": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?auto=format&fit=crop&w=600&q=80",
+          "map": "Al+Azhar+Park+Cairo"
+        }
       ],
       "⚽ نوادي رياضية واجتماعية": [
-        {"name": "نادي الاهلي (جزيرة)", "rating": "⭐ 4.9", "desc": "القلعة الحمراء والنادي العريق.", "dist": "2.5 كم", "img": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=600&q=80", "map": "Al+Ahly+Club+Gezira"},
-        {"name": "نادي الزمالك", "rating": "⭐ 4.8", "desc": "مدرسة الفن والهندسة الرياضية.", "dist": "3.2 كم", "img": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=600&q=80", "map": "Zamalek+Sporting+Club"}
+        {
+          "name": "نادي الاهلي (جزيرة)",
+          "rating": "⭐ 4.9",
+          "desc": "القلعة الحمراء والنادي العريق.",
+          "dist": "2.5 كم",
+          "img": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=600&q=80",
+          "map": "Al+Ahly+Club+Gezira"
+        }
       ]
     },
     "التجمع الخامس": {
       "🍔 مطاعم وكشري ومشويات": [
-        {"name": "بازوكة", "rating": "⭐ 4.3", "desc": "وجبات فراخ مقرمشة وسريعة.", "dist": "2.0 كم", "img": "https://images.unsplash.com/photo-1561758033-d89a9ad46330?auto=format&fit=crop&w=600&q=80", "map": "Bazooka+New+Cairo"},
-        {"name": "استوديو مصر", "rating": "⭐ 4.6", "desc": "مشويات وأكل شرقي فاخر.", "dist": "3.5 كم", "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80", "map": "Studio+Misr+New+Cairo"},
-        {"name": "بوكا", "rating": "⭐ 4.7", "desc": "أفضل الأطباق العالمية والمشويات.", "dist": "2.8 كم", "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80", "map": "Bocca+New+Cairo"}
+        {
+          "name": "بازوكة",
+          "rating": "⭐ 4.3",
+          "desc": "وجبات فراخ مقرمشة وسريعة.",
+          "dist": "2.0 كم",
+          "img": "https://images.unsplash.com/photo-1561758033-d89a9ad46330?auto=format&fit=crop&w=600&q=80",
+          "map": "Bazooka+New+Cairo"
+        },
+        {
+          "name": "استوديو مصر",
+          "rating": "⭐ 4.6",
+          "desc": "مشويات وأكل شرقي فاخر.",
+          "dist": "3.5 كم",
+          "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80",
+          "map": "Studio+Misr+New+Cairo"
+        },
+        {
+          "name": "بوكا",
+          "rating": "⭐ 4.7",
+          "desc": "أفضل الأطباق العالمية والمشويات.",
+          "dist": "2.8 كم",
+          "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80",
+          "map": "Bocca+New+Cairo"
+        }
       ],
       "☕ كافيهات وقهاوي تراثية": [
-        {"name": "كايرو فستيفال كافيهات", "rating": "⭐ 4.7", "desc": "منطقة كافيهات عالمية ومميزة.", "dist": "4.0 كم", "img": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=600&q=80", "map": "Cairo+Festival+City+Mall"}
-      ],
-      "🍦 آيس كريم وحلويات": [
-        {"name": "سالباديون", "rating": "⭐ 4.6", "desc": "ألذ حلويات غربية وآيس كريم.", "dist": "1.8 كم", "img": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80", "map": "Sale+Sucre+New+Cairo"}
-      ],
-      "🌳 حدائق ومتنزهات": [
-        {"name": "المنطقة الخضراء بالتجمع", "rating": "⭐ 4.4", "desc": "مساحات واسعة وممشى رياضي وهادئ.", "dist": "2.5 كم", "img": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?auto=format&fit=crop&w=600&q=80", "map": "New+Cairo+Parks"}
-      ],
-      "⚽ نوادي رياضية واجتماعية": [
-        {"name": "نادي البلاتيموم", "rating": "⭐ 4.7", "desc": "نادي رياضي واجتماعي ضخم بالتجمع.", "dist": "3.0 كم", "img": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=600&q=80", "map": "Platinum+Club+New+Cairo"},
-        {"name": "نادي وادي دجلة (التجمع)", "rating": "⭐ 4.8", "desc": "أكاديميات رياضية وملاعب عالمية.", "dist": "4.2 كم", "img": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=600&q=80", "map": "Wadi+Degla+Club+New+Cairo"}
+        {
+          "name": "كايرو فستيفال كافيهات",
+          "rating": "⭐ 4.7",
+          "desc": "منطقة كافيهات عالمية ومميزة.",
+          "dist": "4.0 كم",
+          "img": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=600&q=80",
+          "map": "Cairo+Festival+City+Mall"
+        }
       ]
     },
     "مصر الجديدة ومدينة نصر": {
       "🍔 مطاعم وكشري ومشويات": [
-        {"name": "ابو حيدر", "rating": "⭐ 4.8", "desc": "ملك الشاورما في مصر الجديدة.", "dist": "1.5 كم", "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80", "map": "Abou+Haider+Heliopolis"},
-        {"name": "البرنس مدينة نصر", "rating": "⭐ 4.6", "desc": "ألذ كبدة ومسقعة ولسانات.", "dist": "2.1 كم", "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80", "map": "El+Prince+Nasr+City"}
-      ],
-      "☕ كافيهات وقهاوي تراثية": [
-        {"name": "كوستا كوفي", "rating": "⭐ 4.5", "desc": "قهوة ممتازة وقعدات هادئة.", "dist": "1.0 كم", "img": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=600&q=80", "map": "Costa+Coffee+Heliopolis"}
-      ],
-      "🍦 آيس كريم وحلويات": [
-        {"name": "تモン تسابيح", "rating": "⭐ 4.7", "desc": "حلويات شرقية وغربية فاخرة.", "dist": "1.2 كم", "img": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80", "map": "Tsabih+Patisserie"}
+        {
+          "name": "ابو حيدر",
+          "rating": "⭐ 4.8",
+          "desc": "ملك الشاورما في مصر الجديدة.",
+          "dist": "1.5 كم",
+          "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80",
+          "map": "Abou+Haider+Heliopolis"
+        },
+        {
+          "name": "البرنس مدينة نصر",
+          "rating": "⭐ 4.6",
+          "desc": "ألذ كبدة ومسقعة ولسانات.",
+          "dist": "2.1 كم",
+          "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80",
+          "map": "El+Prince+Nasr+City"
+        }
       ],
       "🌳 حدائق ومتنزهات": [
-        {"name": "المريلاند", "rating": "⭐ 4.7", "desc": "حديقة التاريخ والذكريات الجميلة بمصر الجديدة.", "dist": "2.0 كم", "img": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?auto=format&fit=crop&w=600&q=80", "map": "Merryland+Park+Heliopolis"}
-      ],
-      "⚽ نوادي رياضية واجتماعية": [
-        {"name": "نادي الشمس", "rating": "⭐ 4.8", "desc": "من أكبر الأندية الاجتماعية والرياضية.", "dist": "3.0 كم", "img": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=600&q=80", "map": "El+Shams+Club"}
+        {
+          "name": "المريلاند",
+          "rating": "⭐ 4.7",
+          "desc": "حديقة التاريخ والذكريات بمصر الجديدة.",
+          "dist": "2.0 كم",
+          "img": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?auto=format&fit=crop&w=600&q=80",
+          "map": "Merryland+Park+Heliopolis"
+        }
       ]
     }
   },
   "الجيزة": {
     "الشيخ زايد وأكتوبر": {
       "🍔 مطاعم وكشري ومشويات": [
-        {"name": "بلبن", "rating": "⭐ 4.7", "desc": "أشهر أرز بلبن وإضافات ابتكارية.", "dist": "1.8 كم", "img": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=600&q=80", "map": "BLaban+October"},
-        {"name": "مطعم بهية", "rating": "⭐ 4.6", "desc": "أكل بيتي مصري أصلي بأعلى جودة.", "dist": "2.5 كم", "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80", "map": "Bahia+Sheikh+Zayed"},
-        {"name": "ماك", "rating": "⭐ 4.4", "desc": "وجبات سريعة عالمية.", "dist": "1.2 كم", "img": "https://images.unsplash.com/photo-1561758033-d89a9ad46330?auto=format&fit=crop&w=600&q=80", "map": "McDonalds+Sheikh+Zayed"}
-      ],
-      "☕ كافيهات وقهاوي تراثية": [
-        {"name": "أركان بلازا كافيهات", "rating": "⭐ 4.8", "desc": "مجمع كافيهات راقي جداً ومناسب للخروج.", "dist": "3.0 كم", "img": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=600&q=80", "map": "Arkan+Plaza+Sheikh+Zayed"}
-      ],
-      "🍦 آيس كريم وحلويات": [
-        {"name": "ديب و ديب", "rating": "⭐ 4.6", "desc": "عشاق الشوكولاتة والوافل الفاخر.", "dist": "2.2 كم", "img": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=600&q=80", "map": "DipNDip+October"}
-      ],
-      "🌳 حدائق ومتنزهات": [
-        {"name": "ZED Park", "rating": "⭐ 4.7", "desc": "أكبر ملاهي ومنتزه ترفيهي في زايد.", "dist": "3.5 كم", "img": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=600&q=80", "map": "ZED+Park+Sheikh+Zayed"}
-      ],
-      "⚽ نوادي رياضية واجتماعية": [
-        {"name": "نادي الشيخ زايد الرياضي", "rating": "⭐ 4.5", "desc": "نادي اجتماعي ورياضي متكامل.", "dist": "2.0 كم", "img": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=600&q=80", "map": "Sheikh+Zayed+Sports+Club"}
-      ]
-    },
-    "الهادي والمهندسين": {
-      "🍔 مطاعم وكشري ومشويات": [
-        {"name": "صبحي كابر", "rating": "⭐ 4.9", "desc": "ملك المشويات واللحوم الطازجة في إمبابة.", "dist": "3.0 كم", "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80", "map": "Sobhy+Kaper+Cairo"},
-        {"name": "التشيكي", "rating": "⭐ 4.4", "desc": "سندوتشات سريعة ولذيذة.", "dist": "1.1 كم", "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80", "map": "ElTorky+Mohandessin"}
-      ],
-      "☕ كافيهات وقهاوي تراثية": [
-        {"name": "البطريق", "rating": "⭐ 4.3", "desc": "قعدة قهوة بلدي ومباريات.", "dist": "0.9 كم", "img": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=600&q=80", "map": "Cafes+Mohandessin"}
-      ],
-      "🍦 آيس كريم وحلويات": [
-        {"name": "الديماسقي", "rating": "⭐ 4.7", "desc": "أشهر بظوظة وحلويات شامي.", "dist": "1.5 كم", "img": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80", "map": "Damaskino+Mohandessin"}
+        {
+          "name": "بلبن",
+          "rating": "⭐ 4.7",
+          "desc": "أشهر أرز بلبن وإضافات ابتكارية.",
+          "dist": "1.8 كم",
+          "img": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=600&q=80",
+          "map": "BLaban+October"
+        },
+        {
+          "name": "مطعم بهية",
+          "rating": "⭐ 4.6",
+          "desc": "أكل بيتي مصري أصلي بأعلى جودة.",
+          "dist": "2.5 كم",
+          "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80",
+          "map": "Bahia+Sheikh+Zayed"
+        }
       ],
       "🌳 حدائق ومتنزهات": [
-        {"name": "حديقة الحيوان بالجيزة", "rating": "⭐ 4.6", "desc": "أعرق حديقة حيوان في الشرق الأوسط.", "dist": "4.0 كم", "img": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?auto=format&fit=crop&w=600&q=80", "map": "Giza+Zoo"}
-      ],
-      "⚽ نوادي رياضية واجتماعية": [
-        {"name": "نادي الترسانة", "rating": "⭐ 4.6", "desc": "الشواكيش والنادي العريق بالمهندسين.", "dist": "2.2 كم", "img": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=600&q=80", "map": "Tersana+Sporting+Club"}
+        {
+          "name": "ZED Park",
+          "rating": "⭐ 4.7",
+          "desc": "أكبر ملاهي ومنتزه ترفيهي في زايد.",
+          "dist": "3.5 كم",
+          "img": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=600&q=80",
+          "map": "ZED+Park+Sheikh+Zayed"
+        }
       ]
     }
   },
   "الإسكندرية": {
     "محطة الرمل والمنشية": {
       "🍔 مطاعم وكشري ومشويات": [
-        {"name": "محمد أحمد", "rating": "⭐ 4.9", "desc": "أشهر فول وفلافل في عروس البحر المتوسط.", "dist": "1.0 كم", "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80", "map": "Mohamed+Ahmed+Alexandria"},
-        {"name": "قرية بلبع", "rating": "⭐ 4.8", "desc": "ملك المأكولات البحرية والمشويات.", "dist": "4.0 كم", "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80", "map": "Balbaa+Alexandria"},
-        {"name": "أسماك حطة", "rating": "⭐ 4.7", "desc": "سي فود إسكندراني طازج.", "dist": "2.5 كم", "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80", "map": "Hatta+Fish+Alexandria"}
-      ],
-      "☕ كافيهات وقهاوي تراثية": [
-        {"name": "تريانون", "rating": "⭐ 4.6", "desc": "عراقة إسكندرانية على البحر مباشرة.", "dist": "0.7 كم", "img": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=600&q=80", "map": "Trianon+Alexandria"}
-      ],
-      "🍦 آيس كريم وحلويات": [
-        {"name": "عزة للآيس كريم", "rating": "⭐ 4.9", "desc": "طعم الآيس كريم الإسكندراني الأصلي.", "dist": "1.2 كم", "img": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=600&q=80", "map": "Azza+Ice+Cream+Alexandria"}
+        {
+          "name": "محمد أحمد",
+          "rating": "⭐ 4.9",
+          "desc": "أشهر فول وفلافل في عروس البحر المتوسط.",
+          "dist": "1.0 كم",
+          "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80",
+          "map": "Mohamed+Ahmed+Alexandria"
+        }
       ],
       "🌳 حدائق ومتنزهات": [
-        {"name": "حدائق المنتزه", "rating": "⭐ 4.9", "desc": "أجمل خروجة بحرية وسط الحدائق الملكية.", "dist": "5.5 كم", "img": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=600&q=80", "map": "Montaza+Palace+Alexandria"}
-      ],
-      "⚽ نوادي رياضية واجتماعية": [
-        {"name": "نادي الإسكندرية الرياضي (سبورتنج)", "rating": "⭐ 4.8", "desc": "من أقدم وأعرق الأندية الرياضية.", "dist": "2.0 كم", "img": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=600&q=80", "map": "Sporting+Club+Alexandria"},
-        {"name": "نادي سموحة", "rating": "⭐ 4.8", "desc": "نادي رياضي واجتماعي عملاق.", "dist": "3.5 كم", "img": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=600&q=80", "map": "Smouha+Club"}
+        {
+          "name": "حدائق المنتزه",
+          "rating": "⭐ 4.9",
+          "desc": "أجمل خروجة بحرية وسط الحدائق الملكية.",
+          "dist": "5.5 كم",
+          "img": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=600&q=80",
+          "map": "Montaza+Palace+Alexandria"
+        }
       ]
     }
   }
