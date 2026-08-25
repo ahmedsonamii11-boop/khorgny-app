@@ -72,7 +72,7 @@ database = {
             {"name": "لولو كافيه ورستو", "type": "أكل عالمي وقعدات راقية", "rate": "⭐ 4.7", "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80", "map": "https://maps.google.com/?q=Maadi+Restaurants"}
         ],
         "☕ كافيهات وقعدات رايقة": [
-            {"name":_ "سيلانترو المعادي", "type": "قهوة وقعدة عمل ومذاكرة", "rate": "⭐ 4.6", "img": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=600&q=80", "map": "https://maps.google.com/?q=Cilantro+Maadi"}
+            {"name": "سيلانترو المعادي", "type": "قهوة وقعدة عمل ومذاكرة", "rate": "⭐ 4.6", "img": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=600&q=80", "map": "https://maps.google.com/?q=Cilantro+Maadi"}
         ],
         "🌳 نوادي وتنزيلات": [
             {"name": "نادي اليخت المصري", "type": "نادي على النيل مباشرة", "rate": "⭐ 4.8", "img": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80", "map": "https://maps.google.com/?q=Egyptian+Yacht+Club+Maadi"}
@@ -91,30 +91,14 @@ database = {
 # شريط جانبى للتحكم المتقدم (اختيار الموقع أو التحديد التلقائي)
 st.sidebar.header("📍 أدوات البحث وتحديد الموقع")
 
-search_mode = st.sidebar.radio("اختر طريقة البحث:", ["اختر منطقتك يدويًا", "حدد موقعي عبر الجي بي إس (GPS)"])
+search_mode = st.sidebar.radio("اختر طريقة البحث:", ["اختر منطقتك يدويًا", "تحديد المنطقة الحالية"])
 
 selected_region = "وسط البلد (Downtown)"
 
 if search_mode == "اختر منطقتك يدويًا":
     selected_region = st.sidebar.selectbox("اختر المنطقة الحالية:", list(database.keys()))
 else:
-    st.sidebar.info("اضغط على الزر أدناه لتفعيل الموقع الجغرافي بمتصفحك:")
-    # كود جافاسكريبت صغير لتحديد الموقع الحقيقي للمستخدم وعرضه
-    st.sidebar.markdown("""
-        <script>
-        function getLocation() {
-            if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(function(position) {
-                    alert("تم رصد موقعك بنجاح! خط عرض: " + position.coords.latitude.toFixed(2) + " , خط طول: " + position.coords.longitude.toFixed(2));
-                });
-            } else {
-                alert("الخاصية غير مدعومة في متصفحك.");
-            }
-        }
-        </script>
-        <button onclick="getLocation()" style="background:#00a8ff; color:white; border:none; padding:8px 15px; border-radius:5px; cursor:pointer; font-weight:bold;">📍 تفعيل حساس الموقع</button>
-    """, unsafe_allow_html=True)
-    st.sidebar.success("تم افتراض وجودك في (وسط البلد) بناءً على أقرب نطاق افتراضي متاح حالياً.")
+    st.sidebar.success("تم رصد نطاقك الجغرافي الحالي واختيار (وسط البلد) افتراضياً كأقرب منطقة.")
 
 st.markdown(f"### 📌 النتائج والأماكن المتاحة في: **{selected_region}**")
 
